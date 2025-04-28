@@ -26,7 +26,7 @@ class ScriptGenerator:
         # Get API key from environment variable or use the one from the spec if not set
         self.api_key = os.getenv(
             "OPENROUTER_API_KEY", 
-            "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"
+            "..."
         )
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
 
